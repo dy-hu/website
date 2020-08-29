@@ -1,3 +1,17 @@
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+    font-weight:bold;
+    font-size:400%;
+}
+
+hr {
+    margin-top: 0px;
+    padding-top:0px;
+    border-top:0px;
+}
 .jumbotron {
     position: relative;
     overflow: hidden;
@@ -57,12 +71,12 @@ section {
     list-style: none;
   }
   section #services li div {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     color: #9381ff;
-    font-size: 3.4em;
+    font-size: 2.5em;
     text-align: center;
-    line-height: 60px;
+    line-height: 50px;
     background-color: #fff;
     transition: all 0.5s ease;
     border-radius:10px;
@@ -82,4 +96,8 @@ ul {
 img {
     margin-left:auto;
     margin-right:auto;
+}
+
+.navbar-brand {
+    box-shadow: 0 5px 5px -5px black;
 }
