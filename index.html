@@ -6,25 +6,52 @@
     <title>Daniel Hu</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/app.js"></script>
+    <link rel="icon" href="imgs/profilepic.png">
 </head>
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="mainnav">
-        <div class="container">
-            <a class="navbar-brand">
-                <img src="imgs/logo.png" width="50" height="50" alt="">
-              </a>
+    
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="mainnav" style="margin-top:0px; padding-top:0px; background-color:#090a0d; padding-bottom:0px;>
+        <div class="navbar-collapse collapse" id="mynavbar">
+            <span class="w-100"> </span>
+            <form class="form-inline w-100 justify-content-center">
+                <div class="my-lg-0">
+                    <a class="navbar-brand" style="padding-right:0px;margin-right:0px;padding-top:0px;padding-bottom:0px;">
+                        <img src="imgs/profilepic.png" width="64" height="64" alt="" style="margin-top:0px; padding-top:0px;margin-right:0px;">
+                      </a>
+                </div>
+            </form>
+            <ul class="navbar-nav w-100 justify-content-end">
+                <li class="nav-item">
+                     <div class="btn-group">
+                        <a class="btn nav-link dropdown-toggle" data-toggle="dropdown"
+                            href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#">Action</a> <a
+                                class="dropdown-item" href="#">Another action</a> <a
+                                class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
         
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#banner">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="team.html">About Us</a>
@@ -37,25 +64,66 @@
                     </li>
                 </ul>
             </div>
-        </div>
-      </nav>
+            <div class="mx-auto justify-content-center">
+                <a class="navbar-brand">
+                    <img src="imgs/profilepic.png" width="50" height="50" alt="">
+                  </a>
+            </div>
+        </div> -->
+    </nav>
 
     <div class="jumbotron jumbotron-fluid" id="banner">
         <video autoplay muted loop poster="imgs/placeholder.png">    
             <source src="imgs/banner.webm" type="video/webm">
         </video>
-        
-          <div class="container text-white" id="jumbotext">
-        
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        
+          <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-8">
+                <div class="container text-white">
+                    <div class="container text-white" id="jumbotext">
+                      <h1 class="display-4">Daniel Hu</h1>
+                      <p class="lead">This is a simple hero unit, a simple jumbotron-styl</p>
+                      <hr class="my-4">
+                      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                      <div class="row">
+                          <div class="col-sm-1"></div>
+                          <div class="col-sm-10">
+                            <section>
+                                <ul id="services">
+                                <li>
+                                    <div class="linkedin">
+                                    <a href="https://www.linkedin.com/company/colorlib">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="instagram">
+                                    <a href="https://www.linkedin.com/company/colorlib">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="github">
+                                    <a href="https://github.com/puikinsh/">
+                                        <i class="fa fa-github" aria-hidden="true"></i>
+                                    </a>
+                                    </div>
+                                </li>
+                                </ul>
+                            </section>
+                          </div>
+                          <div class="col-sm-1"></div>
+                       </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-2"></div>
           </div>
           <!-- /.container -->
-        </div>
+    </div>
         <!-- /.jumbotron -->
+
 </body>
 </html>
