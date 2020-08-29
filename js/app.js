@@ -14,3 +14,8 @@ function deferVideo() {
 window.onload = deferVideo;
 
 
+function scrollWindow()
+{
+window.scrollTo(0,0);
+}
+window.onload = scrollWindow;
