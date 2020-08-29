@@ -1,5 +1,6 @@
 body {
     font-family: 'Mulish', sans-serif;
+    overflow-wrap: break-word;
 }
 
 h1 {
@@ -34,8 +35,8 @@ hr {
   }
 
 #banner {
-    padding-top:225px;
-    padding-bottom:225px;
+    padding-top:250px;
+    padding-bottom:250px;
 }
 
 nav {
