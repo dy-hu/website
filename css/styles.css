@@ -16,6 +16,7 @@ hr {
     position: relative;
     overflow: hidden;
     background-color:black;
+    margin-bottom: 0px;
   }
   .jumbotron video {
     position: absolute;
@@ -53,6 +54,8 @@ nav {
     font-weight:bold;
     text-align: center;
     box-shadow: 0 10px 10px -5px black;
+    margin-bottom: 0px;
+    border-bottom:0px;
 }
 
 section {
@@ -98,6 +101,34 @@ img {
     margin-right:auto;
 }
 
+.aboutmepic {
+    width: 600px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    vertical-align: middle;
+    border-style: none;
+}
 nav {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+#aboutme {
+    padding-top:100px;
+    background-color:#f7f7f7;
+    color:black;
+    object-fit:cover;
+    padding-bottom:100px;
+}
+
+.aboutmetext {
+    padding-top:40px;
+    font-size:170%;
+}
+
+#projects {
+    background-color:white;
+    padding-top:100px;
+    padding-bottom:100px;
 }
