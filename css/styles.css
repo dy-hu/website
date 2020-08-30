@@ -35,6 +35,8 @@ hr {
   }
 
 #banner {
+    height:100%;
+    width:100%;
     padding-top:300px;
     padding-bottom:300px;
 }
