@@ -168,3 +168,9 @@ flip card
     transform: rotateY(0deg);
   }
 
+footer {
+  background-color:#f7f7f7;
+  padding-bottom:40px;
+  padding-top:40px;
+  text-align:center;
+}
