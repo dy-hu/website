@@ -3,6 +3,43 @@ body {
     overflow-wrap: break-word;
 }
 
+#banner {
+  height:100%;
+  width:100%;
+  padding-top:40vh;
+  padding-bottom:300px;
+}
+
+#jumbotext {
+  background-color: #9381ff;
+  color:black;
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-right:20px;
+  padding-left:20px;
+  opacity:0.85;
+  border-radius: 5px;
+  font-weight:bold;
+  text-align: center;
+  box-shadow: 0 10px 10px -5px black;
+  margin-bottom: 0px;
+  border-bottom:0px;
+}
+
+#aboutme {
+    padding-top:100px;
+    background-color:#f7f7f7;
+    color:black;
+    object-fit:cover;
+    padding-bottom:100px;
+}
+
+#projects {
+  background-color:white;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
 h1 {
     font-weight:bold;
     font-size:400%;
@@ -13,87 +50,11 @@ hr {
     padding-top:0px;
     border-top:0px;
 }
-.jumbotron {
-    position: relative;
-    overflow: hidden;
-    background-color:black;
-    margin-bottom: 0px;
-  }
-  .jumbotron video {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    width:100%;
-    height:100%;
-    /*  object-fit is not supported on IE  */
-    object-fit: cover;
-    opacity:0.5;
-  }
-  .jumbotron .container {
-    z-index: 2;
-    position: relative;
-  }
-
-#banner {
-    height:100%;
-    width:100%;
-    padding-top:40vh;
-    padding-bottom:300px;
-}
 
 nav {
     opacity:0.95;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
-
-#jumbotext {
-    background-color: #9381ff;
-    color:black;
-    padding-top:50px;
-    padding-bottom:50px;
-    padding-right:20px;
-    padding-left:20px;
-    opacity:0.85;
-    border-radius: 5px;
-    font-weight:bold;
-    text-align: center;
-    box-shadow: 0 10px 10px -5px black;
-    margin-bottom: 0px;
-    border-bottom:0px;
-}
-
-section {
-    margin: 0;
-    background-color: #9381ff;
-    font-family: 'Raleway Dots', sans-serif;
-    opacity:0.85;
-  }
-  
-  section #services {
-    text-align: center;
-    transform: translatez(0);
-  }
-  section #services li {
-    display: inline-block;
-    list-style: none;
-  }
-  section #services li div {
-    width: 50px;
-    height: 50px;
-    color: #9381ff;
-    font-size: 2.0em;
-    text-align: center;
-    line-height: 50px;
-    background-color: #fff;
-    transition: all 0.5s ease;
-    border-radius:10px;
-  }
-  section #services li a {
-    color:  #9381ff;
-  }
-  section #services li div:hover {
-    transform: rotate(360deg);
-    border-radius: 100px;
-  }
 
 ul {
     padding-left:0px;
@@ -113,33 +74,73 @@ img {
     vertical-align: middle;
     border-style: none;
 }
-nav {
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-}
-
-#aboutme {
-    padding-top:100px;
-    background-color:#f7f7f7;
-    color:black;
-    object-fit:cover;
-    padding-bottom:100px;
-}
 
 .aboutmetext {
     padding-top:40px;
     font-size:170%;
 }
 
-#projects {
-    background-color:white;
-    padding-top:100px;
-    padding-bottom:100px;
+/* Jumbotron CSS and Video */
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  background-color:black;
+  margin-bottom: 0px;
+}
+.jumbotron video {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width:100%;
+  height:100%;
+  /*  object-fit is not supported on IE  */
+  object-fit: cover;
+  opacity:0.5;
+}
+.jumbotron .container {
+  z-index: 2;
+  position: relative;
 }
 
+/* Button CSS & Button Animation */
+section {
+  margin: 0;
+  background-color: #9381ff;
+  font-family: 'Raleway Dots', sans-serif;
+  opacity:0.85;
+}
+
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+section #services li {
+  display: inline-block;
+  list-style: none;
+}
+section #services li div {
+  width: 50px;
+  height: 50px;
+  color: #9381ff;
+  font-size: 2.0em;
+  text-align: center;
+  line-height: 50px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+  border-radius:10px;
+}
+section #services li a {
+  color:  #9381ff;
+}
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
 
 /*
-flip card
+Card CSS & Flip Animation
 */
+
 .card-flip > div {
     backface-visibility: hidden;
     transition: transform 300ms;
@@ -150,23 +151,23 @@ flip card
     display: flex;
   }
   
-  .card-front {
+.card-front {
     transform: rotateY(0deg);
-  }
+}
   
-  .card-back {
+.card-back {
     transform: rotateY(180deg);
     position: absolute;
     top: 0;
-  }
+}
   
-  .card-flip:hover .card-front {
+.card-flip:hover .card-front {
     transform: rotateY(-180deg);
-  }
+}
     
-  .card-flip:hover .card-back {
+.card-flip:hover .card-back {
     transform: rotateY(0deg);
-  }
+}
 
 footer {
   background-color:#f7f7f7;
