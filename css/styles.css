@@ -3,6 +3,10 @@ body {
     overflow-wrap: break-word;
 }
 
+html {
+scroll-behavior: smooth;
+}
+
 #banner {
   height:100%;
   width:100%;
