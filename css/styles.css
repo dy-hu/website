@@ -15,13 +15,13 @@ html {
 }
 
 #jumbotext {
-  background-color: #9381ff;
+  background-color: black;
   color:black;
   padding-top:50px;
   padding-bottom:50px;
   padding-right:20px;
   padding-left:20px;
-  opacity:0.85;
+  opacity:0.70;
   border-radius: 5px;
   font-weight:bold;
   text-align: center;
@@ -109,7 +109,7 @@ img {
 /* Button CSS & Button Animation */
 section {
   margin: 0;
-  background-color: #9381ff;
+  background-color: black;
   font-family: 'Raleway Dots', sans-serif;
   opacity:0.85;
 }
@@ -125,7 +125,7 @@ section #services li {
 section #services li div {
   width: 50px;
   height: 50px;
-  color: #9381ff;
+  color: black;
   font-size: 2.0em;
   text-align: center;
   line-height: 50px;
@@ -134,7 +134,7 @@ section #services li div {
   border-radius:10px;
 }
 section #services li a {
-  color:  #9381ff;
+  color:  black;
 }
 section #services li div:hover {
   transform: rotate(360deg);
