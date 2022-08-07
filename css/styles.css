@@ -70,10 +70,10 @@ img {
 }
 
 .aboutmepic {
-    width: 600px;
+    width: 700px;
     display: block;
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
     margin: auto;
     vertical-align: middle;
     border-style: none;
