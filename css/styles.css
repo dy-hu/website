@@ -64,6 +64,10 @@ ul {
     padding-left:0px;
 }
 
+a {
+  color:black; opacity:0.7; text-decoration-line: underline;
+}
+
 img {
     margin-left:auto;
     margin-right:auto;
@@ -72,8 +76,8 @@ img {
 .aboutmepic {
     width: 700px;
     display: block;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 120%;
+    max-height: 120%;
     margin: auto;
     vertical-align: middle;
     border-style: none;
